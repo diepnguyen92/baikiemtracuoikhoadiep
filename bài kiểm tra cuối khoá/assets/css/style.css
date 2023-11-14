@@ -1,20 +1,20 @@
 * {margin: 0;
 padding: 0;
 box-sizing: border-box;}
+
 .top-main {
     width: 1920px;
 height: 847px;
 flex-shrink: 0;
 background-color: var(--Black-5, rgba(30, 40, 50, 0.05));
 position: relative;
+padding-top: 31px;
 }
 .header {width: 1320px;
     height: 113px;
-   
     margin: auto;
     gap: 30px;
-
-    margin-top: 31px;}
+    }
 .top-header {width:1320px;
     height: 59px;
     display: flex;
@@ -54,13 +54,13 @@ display: flex;
   margin: 0; 
 }
 
- .account li {list-style-type: none;
+ .account ul li {list-style-type: none;
      margin-right: 22px ; }
-.account li button i {margin-right: 8px;  
+.account ul li button i {margin-right: 8px;
 }
    
 .account li button a { text-decoration: none;
- font-family: Roboto;
+ font-family: 'Roboto', sans-serif;
  font-size: 18px;
  font-style: normal;
   font-weight: 400;
@@ -106,7 +106,7 @@ padding-left: 4px;}
 .product .content p:nth-child(1) {
     color: black;
 font-size: 74px;
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-weight: 300;
 text-transform: capitalize;
 line-height: 55px;
@@ -115,7 +115,7 @@ word-wrap: break-word;
 .product .content p:nth-child(2) {
     color: black;
     font-size: 30px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     text-transform: capitalize;
     line-height: 55px;
@@ -123,7 +123,7 @@ word-wrap: break-word;
     margin-top: 52px;
 }
 .product .image {margin-left: 98px;}
-.product .content button {width: 223px;
+.product .content button {width: auto;
     height: 72px;
     padding: 19px 26px 19px 26px;
     background-color: #1E2832;
@@ -138,7 +138,7 @@ word-wrap: break-word;
 .product .content button span {
     color: white;
     font-size: 29px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     text-transform: capitalize;
     word-wrap: break-word;
@@ -155,11 +155,9 @@ word-wrap: break-word
 /* flower-pattern*/
 .top-main .flower-pattern {
     position: absolute;
-    width: 2034px;
+    width: 1920px;
     height: 373px;
     top: 365.8px;
-    right: -85.44px;
-    left: 28.45px;
     display: flex;
    
 }
@@ -194,32 +192,148 @@ align-items: center;
 display: inline-flex;
 margin: 90px 300px 90px 300px;
 }
-/*conent dọc*/
+/*hot - product*/
 .hot-category {width: 1320px;
 height: 648px;
 margin: 0px 300px 90px 300px;
-background-color: red;
+
 display: flex;
 position: relative;}
 .hot-category p {width: 648px;
 height: 52px;
 color: black;
 font-size: 34px;
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-weight: 400;
 text-transform: uppercase;
 word-wrap: break-word;
 position: absolute;
 top: 298px;
 left: -336px;
-transform: rotate(-90deg);
-
-}
-.card-main {width: 648px;
+transform: rotate(-90deg);}
+.card-left {
+    width: 648px;
+height: 648px;}
+.card-right {
+    width: 648px;
 height: 648px;
-background-color: aqua;}
+margin-left: 24px;}
 
-.card {width: 312px;
+.row {
 height: 312px;
+display: flex;
+margin: 0 -12px;}
+
+.card {padding-left: 12px;
+padding-right: 12px;}
+
+.colum1 {width: calc(100%/2);}
+
+.content-card {width: 100%;
+height: 312px;
+margin-bottom: 20px;}
+
+.row1 {height: 312px;
+    display: flex;
+    margin: 24px -12px 0 -12px;}
+
+    /* grid product tiêu đề, menu*/
+.grid-products {width: 1320px;
+    height: 1141px;
+    margin: 140px 300px 0 300px;
+    background-color: aqua; }
+.top-section-title {width: 100%;
+    display: flex;
+    justify-content: center;
 }
+.section-title {width: 707px;
+    height: 59px;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    display: inline-flex;
+    color: black;
+font-size: 50px;
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+text-transform: capitalize;
+word-wrap: break-word;
+}
+.top-section {width: 100%;
+height: 32px;
+margin-top: 35px;
+display: flex;
+align-items: center;
+position: relative;}
+
+.top-section-category {width: 373px;
+height: 22px;}
+.top-section-category ul {display: flex;
+justify-content: space-between;
+color: black;
+}
+
+li {list-style-type: none;}
+a {text-decoration: none;}
+.top-section-category ul li .item-tab {
+    color: black;
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: 600;
+    text-transform: capitalize;
+    word-wrap: break-word
+}
+.top-section-category ul li .item {
+    color: rgba(117, 114, 114, 0.5);
+font-size: 16px;
+font-family: Open Sans;
+font-weight: 600;
+text-transform: capitalize;
+word-wrap: break-word
+}
+.top-section-category ul li:hover .item {color:rgb(243, 86, 51) ;}
+
+.top-section button {position: absolute;
+    right: 0px;
+    
+    color: white;
+    padding-left: 15px;
+     padding-right: 15px; 
+     padding-top: 5px; 
+     padding-bottom: 5px; 
+     background: #1E2832; 
+     justify-content: flex-start; 
+     align-items: center; gap: 4px; 
+     display: inline-flex
+}
+.top-section button span {color: white;
+    font-size: 16px;
+font-family: Open Sans;
+font-weight: 400;
+text-transform: capitalize;
+word-wrap: break-word;
+margin-left: 4px;
+}
+.top-section button i {
+    color: white;
+font-size: 14px;
+font-family: Font Awesome 6 Free;
+font-weight: 900;
+word-wrap: break-word
+}
+/* chia ô sản phầm chính*/
+
+.row-product{
+    height: 478px;
+    display: flex;
+    margin: 35px -12px 0 -12px;}
+    
+    .hot {padding-left: 12px;
+    padding-right: 12px;}
+    
+    .product-colum {width: calc(100%/4);}
+    
+    .product-content {width: 100%;
+    height: 478px;
+    margin-bottom: 24px;
+background-color: red;}
 
