@@ -1,0 +1,225 @@
+* {margin: 0;
+padding: 0;
+box-sizing: border-box;}
+.top-main {
+    width: 1920px;
+height: 847px;
+flex-shrink: 0;
+background-color: var(--Black-5, rgba(30, 40, 50, 0.05));
+position: relative;
+}
+.header {width: 1320px;
+    height: 113px;
+   
+    margin: auto;
+    gap: 30px;
+
+    margin-top: 31px;}
+.top-header {width:1320px;
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  
+}
+.top-header span {color: var(--Dark, #000);
+    font-family: AmstelvarAlpha;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.top-header svg {margin: 10px;}
+.top-header>i{position: absolute;
+left: 0;
+top: 4px;
+display: flex;
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;}
+
+.account {display: flex;
+        width: 221px;
+        height: 25px; 
+    position: absolute;
+    top: 4px;
+    right: 2px;
+}
+.account button {width: 100px;
+ height: 25px;
+  border: none;
+  background: none;
+  margin: 0; 
+}
+
+ .account li {list-style-type: none;
+     margin-right: 22px ; }
+.account li button i {margin-right: 8px;  
+}
+   
+.account li button a { text-decoration: none;
+ font-family: Roboto;
+ font-size: 18px;
+ font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+ text-transform: capitalize;
+color: black;}
+.account li button:hover a {color: rgb(243, 86, 51);}
+.account li button:hover i {color: rgb(243, 86, 51);}
+hr {
+height: 1px;
+background: #E3E3E3;}
+
+.header .menu {width: 1320px;
+   
+ 
+    display: flex;
+margin-top: 30px;
+justify-content: space-between;
+align-items: center;}
+.header ul li {font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    text-transform: capitalize;
+    color: var(--Dark, #000);
+    font-feature-settings: 'clig' off, 'liga' off;
+list-style-type: none;    
+}
+.header ul li:hover {color: rgb(243, 86, 51);}
+
+.top-main .product {width: 1226px;
+height: 562px;
+display: flex;
+margin-left: 300px;
+margin-top: 81px;
+z-index: 999999;}
+
+.top-main .product .content {width: 686px;
+height: 364px;
+margin-top: 74px;
+padding-left: 4px;}
+.product .content p:nth-child(1) {
+    color: black;
+font-size: 74px;
+font-family: Roboto;
+font-weight: 300;
+text-transform: capitalize;
+line-height: 55px;
+word-wrap: break-word;
+}
+.product .content p:nth-child(2) {
+    color: black;
+    font-size: 30px;
+    font-family: Roboto;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 55px;
+    word-wrap: break-word;
+    margin-top: 52px;
+}
+.product .image {margin-left: 98px;}
+.product .content button {width: 223px;
+    height: 72px;
+    padding: 19px 26px 19px 26px;
+    background-color: #1E2832;
+    justify-content: center; 
+    align-items: center;
+     gap: 8px;
+      display: inline-flex;
+      margin-top: 66px;
+     
+
+}
+.product .content button span {
+    color: white;
+    font-size: 29px;
+    font-family: Roboto;
+    font-weight: 400;
+    text-transform: capitalize;
+    word-wrap: break-word;
+    margin-left: 8px;
+}
+.product .content button i {
+    color: white;
+font-size: 24px;
+font-family: Font Awesome 6 Free;
+font-weight: 900;
+word-wrap: break-word
+}
+
+/* flower-pattern*/
+.top-main .flower-pattern {
+    position: absolute;
+    width: 2034px;
+    height: 373px;
+    top: 365.8px;
+    right: -85.44px;
+    left: 28.45px;
+    display: flex;
+   
+}
+
+.top-main .flower-pattern .frame1 {
+    width: 132.31px;
+     height: 114.61px; 
+     left: 0.02px; 
+     bottom: 60px; 
+     position: absolute; 
+   
+}
+.top-main .flower-pattern .frame2 {
+    width: 194.75px; 
+    height: 261.91px;
+position: absolute;
+ 
+       flex-direction: column; 
+       justify-content: center; 
+       align-items: center; 
+       display: inline-flex;
+       right: 153.5px;        
+          flex-direction: column; 
+          justify-content: center; 
+          align-items: center; display: inline-flex
+}
+/* Thẻ Brand*/
+.brand {width: 1320px;
+height: 70px;
+justify-content: space-between; 
+align-items: center; 
+display: inline-flex;
+margin: 90px 300px 90px 300px;
+}
+/*conent dọc*/
+.hot-category {width: 1320px;
+height: 648px;
+margin: 0px 300px 90px 300px;
+background-color: red;
+display: flex;
+position: relative;}
+.hot-category p {width: 648px;
+height: 52px;
+color: black;
+font-size: 34px;
+font-family: Roboto;
+font-weight: 400;
+text-transform: uppercase;
+word-wrap: break-word;
+position: absolute;
+top: 298px;
+left: -336px;
+transform: rotate(-90deg);
+
+}
+.card-main {width: 648px;
+height: 648px;
+background-color: aqua;}
+
+.card {width: 312px;
+height: 312px;
+}
+
