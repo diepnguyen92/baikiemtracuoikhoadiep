@@ -602,8 +602,10 @@ font-feature-settings: 'clig' off, 'liga' off;
 padding: 19px 26px;
 position: absolute;
 left: 1084px;
-top: 611px;
-}
+top: 611px;}
+/*chuyển màu button khi di chuột đếN*/
+.baner button:hover{background-color: #FF6F61;;}
+
 /* dữ liệu slider product*/
 .slider-product {width: 1320px;
 height: 639px;
