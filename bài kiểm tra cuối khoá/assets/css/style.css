@@ -851,3 +851,5 @@ font-weight: 900;
 word-wrap: break-word;
 margin-left: 4px;
 }
+.botton-footer button a {text-decoration: none;
+color: white;}
